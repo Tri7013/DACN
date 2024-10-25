@@ -1,0 +1,109 @@
+﻿@page
+@model RegisterModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NamComic 🍄 | @ViewData["Title"]</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloader -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Register Section Begin -->
+    <section class="login spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login__form">
+                        <h3>Create a New Account</h3>
+                        <form id="register" method="post">
+                            <div class="input__item">
+                                <input asp-for="Input.Email" class="form-control" placeholder="Email address" autocomplete="username" />
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Input.Email)</span>
+                            </div>
+                            <div class="input__item">
+                                <input asp-for="Input.FullName" class="form-control" placeholder="Full Name" />
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Input.FullName)</span>
+                            </div>
+                            <div class="input__item">
+                                <input asp-for="Input.Password" type="password" class="form-control" placeholder="Password" autocomplete="new-password" />
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Input.Password)</span>
+                            </div>
+                            <div class="input__item">
+                                <input asp-for="Input.ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password" autocomplete="new-password" />
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Input.ConfirmPassword)</span>
+                            </div>
+                            <button type="submit" class="site-btn">Register Now</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="login__register">
+                        <h3>Already Have an Account?</h3>
+                        <a href="@Url.Page("./Login", new { returnUrl = Model.ReturnUrl })" class="primary-btn">Login Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login__social">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="login__social__links">
+                            <span>or</span>
+                            <ul>
+                                @{
+                                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                                    {
+                                        <li>No external authentication services available.</li>
+                                    }
+                                    else
+                                    {
+                                        foreach (var provider in Model.ExternalLogins!)
+                                        {
+                                            <li>
+                                                <form method="post" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                                                    <button type="submit" name="provider" value="@provider.Name" class="btn btn-outline-secondary">
+                                                        Register with @provider.DisplayName
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register Section End -->
+    <!-- Js Plugins -->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

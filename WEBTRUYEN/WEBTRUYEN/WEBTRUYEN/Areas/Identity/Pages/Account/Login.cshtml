@@ -1,0 +1,107 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NamComic 🍄 | @ViewData["Title"]</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Login Section Begin -->
+    <section class="login spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login__form">
+                        <h3>Login</h3>
+                        <form id="account" method="post">
+                            <div class="input__item">
+                                <input asp-for="Input.Email" class="form-control" placeholder="Email address" autocomplete="username" />
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Input.Email)</span>
+                            </div>
+                            <div class="input__item">
+                                <input asp-for="Input.Password" type="password" class="form-control" placeholder="Password" autocomplete="current-password" />
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Input.Password)</span>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" asp-for="Input.RememberMe" />
+                                <label asp-for="Input.RememberMe" class="form-check-label">Remember Me</label>
+                            </div>
+                            <button type="submit" class="site-btn">Login Now</button>
+                        </form>
+                        <a href="@Url.Page("./ForgotPassword")" class="forget_pass">Forgot Your Password?</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="login__register">
+                        <h3>Don't Have An Account?</h3>
+                        <a href="@Url.Page("./Register", new { returnUrl = Model.ReturnUrl })" class="primary-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login__social">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="login__social__links">
+                            <span>or</span>
+                            <ul>
+                                @{
+                                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                                    {
+                                        <li>There are no external authentication services configured.</li>
+                                    }
+                                    else
+                                    {
+                                        foreach (var provider in Model.ExternalLogins!)
+                                        {
+                                            <li>
+                                                <form method="post" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                                                    <button type="submit" name="provider" value="@provider.Name" class="btn btn-outline-secondary">
+                                                        Log in with @provider.DisplayName
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Login Section End -->
+    <!-- Js Plugins -->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

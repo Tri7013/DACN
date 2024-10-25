@@ -1,0 +1,28 @@
+﻿@page
+@model PersonalDataModel
+@{
+    ViewData["Title"] = "Personal Data";
+}
+
+<h1 style="text-align:center; color:#3A3A3A; font-family:'Arial', sans-serif;">@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-10">
+        <section style="background-color:#FFFFFF; border: 1px solid #D0D0D0; border-radius: 12px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+            <p style="color:#3A3A3A; font-family:'Arial', sans-serif;">
+                Your account contains personal data that you have given us. This page allows you to download or delete that data.
+            </p>
+            <p style="color:#3A3A3A; font-family:'Arial', sans-serif;">
+                <strong>Deleting this data will permanently remove your account, and this cannot be recovered.</strong>
+            </p>
+            <form id="download-data" asp-page="DownloadPersonalData" method="post">
+                <button class="btn btn-primary" type="submit" style="background-color: #6BBF92; color: #FFFFFF;">Download</button>
+            </form>
+            <a id="delete" asp-page="DeletePersonalData" class="btn btn-danger">Delete</a>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

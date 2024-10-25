@@ -1,0 +1,785 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WEBTRUYEN.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WEBTRUYEN.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\bootstrap-4.4.1-dist.zip",
+      "PackagePath": "staticwebassets\\Source\\bootstrap-4.4.1-dist.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\elegant_font.zip",
+      "PackagePath": "staticwebassets\\Source\\elegant_font.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\jquery-nice-select-1.1.0.zip",
+      "PackagePath": "staticwebassets\\Source\\jquery-nice-select-1.1.0.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\plyr-master.zip",
+      "PackagePath": "staticwebassets\\Source\\plyr-master.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Source\\sass.zip",
+      "PackagePath": "staticwebassets\\Source\\sass.zip"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\Screenshot 2024-09-26 121509.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2024-09-26 121509.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blog-7.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\blog-8.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\hero-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\hero-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\live-1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\live-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\live-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\live-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\recent-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\recent-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\recent-6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\recent-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\Uploads\\solo-leveling.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\solo-leveling.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\2057cf90-6f15-4ce6-a9a9-5ef02735df57_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\2057cf90-6f15-4ce6-a9a9-5ef02735df57_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\3e1518fa-a512-4333-aea9-2e160cf3766c_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\3e1518fa-a512-4333-aea9-2e160cf3766c_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\51a91dea-2bbd-4203-bff6-314e3a245b47_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\51a91dea-2bbd-4203-bff6-314e3a245b47_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\5e7b6dfd-19a5-440e-a57d-07a04138f884_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\5e7b6dfd-19a5-440e-a57d-07a04138f884_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\5f9262d5-f172-4abd-a57a-80a0059b2155_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\5f9262d5-f172-4abd-a57a-80a0059b2155_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\832e7cc5-67bc-42d7-89ef-438faa921d7e_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\832e7cc5-67bc-42d7-89ef-438faa921d7e_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\930469b5-6bba-47be-8663-6f465f5daf91_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\930469b5-6bba-47be-8663-6f465f5daf91_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\a4a85e40-0c3f-4bbc-bd52-e01b32c1189e_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\a4a85e40-0c3f-4bbc-bd52-e01b32c1189e_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\ad8bce1a-4d6e-41cd-a06c-fd100dd8194d_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\ad8bce1a-4d6e-41cd-a06c-fd100dd8194d_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\afd5c74e-321d-4ab7-9930-d4ef527efe16_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\afd5c74e-321d-4ab7-9930-d4ef527efe16_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\b46a97b2-7334-4dc0-8590-79bad47ac4d6_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\b46a97b2-7334-4dc0-8590-79bad47ac4d6_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\c07b868f-d4da-4698-b114-58b5190563af_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\c07b868f-d4da-4698-b114-58b5190563af_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\c08ce8f2-f2a9-4960-ba63-153805a6e5b2_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\c08ce8f2-f2a9-4960-ba63-153805a6e5b2_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\ca6edd4c-3acd-47c6-a838-561c01633586_dfdsf.txt",
+      "PackagePath": "staticwebassets\\chapters\\ca6edd4c-3acd-47c6-a838-561c01633586_dfdsf.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\d4c326f6-4897-4af0-a924-1a7d5c1d1434_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\d4c326f6-4897-4af0-a924-1a7d5c1d1434_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\f1857f6b-7384-473e-8bf0-ec8522b383f9_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\f1857f6b-7384-473e-8bf0-ec8522b383f9_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\chapters\\f36f1b72-f025-4bce-af78-8eec12b5214a_ga.txt.txt",
+      "PackagePath": "staticwebassets\\chapters\\f36f1b72-f025-4bce-af78-8eec12b5214a_ga.txt.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\details-pic.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\review-1.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\review-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\review-2.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\review-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\review-3.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\review-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\review-4.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\review-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\review-5.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\review-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\anime\\review-6.jpg",
+      "PackagePath": "staticwebassets\\img\\anime\\review-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-10.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-10.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-11.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-11.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-12.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-12.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\bd-item-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\bd-item-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\bd-item-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\bd-item-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\bd-item-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\bd-item-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\blog-details-pic.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-details-pic.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\comment-1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\comment-1.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\comment-2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\comment-2.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\blog\\details\\comment-3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\comment-3.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\hero\\solo-leveling.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\solo-leveling.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\live\\live-1.jpg",
+      "PackagePath": "staticwebassets\\img\\live\\live-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\live\\live-2.jpg",
+      "PackagePath": "staticwebassets\\img\\live\\live-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\live\\live-3.jpg",
+      "PackagePath": "staticwebassets\\img\\live\\live-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\live\\live-4.jpg",
+      "PackagePath": "staticwebassets\\img\\live\\live-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\live\\live-5.jpg",
+      "PackagePath": "staticwebassets\\img\\live\\live-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\live\\live-6.jpg",
+      "PackagePath": "staticwebassets\\img\\live\\live-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\normal-breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\img\\normal-breadcrumb.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\popular\\popular-1.jpg",
+      "PackagePath": "staticwebassets\\img\\popular\\popular-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\popular\\popular-2.jpg",
+      "PackagePath": "staticwebassets\\img\\popular\\popular-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\popular\\popular-3.jpg",
+      "PackagePath": "staticwebassets\\img\\popular\\popular-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\popular\\popular-4.jpg",
+      "PackagePath": "staticwebassets\\img\\popular\\popular-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\popular\\popular-5.jpg",
+      "PackagePath": "staticwebassets\\img\\popular\\popular-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\popular\\popular-6.jpg",
+      "PackagePath": "staticwebassets\\img\\popular\\popular-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\recent\\recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\recent\\recent-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\recent\\recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\recent\\recent-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\recent\\recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\recent\\recent-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\recent\\recent-4.jpg",
+      "PackagePath": "staticwebassets\\img\\recent\\recent-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\recent\\recent-5.jpg",
+      "PackagePath": "staticwebassets\\img\\recent\\recent-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\recent\\recent-6.jpg",
+      "PackagePath": "staticwebassets\\img\\recent\\recent-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\comment-1.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\comment-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\comment-2.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\comment-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\comment-3.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\comment-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\comment-4.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\comment-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\tv-1.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\tv-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\tv-2.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\tv-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\tv-3.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\tv-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\tv-4.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\tv-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\sidebar\\tv-5.jpg",
+      "PackagePath": "staticwebassets\\img\\sidebar\\tv-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\trending\\trend-1.jpg",
+      "PackagePath": "staticwebassets\\img\\trending\\trend-1.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\trending\\trend-2.jpg",
+      "PackagePath": "staticwebassets\\img\\trending\\trend-2.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\trending\\trend-3.jpg",
+      "PackagePath": "staticwebassets\\img\\trending\\trend-3.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\trending\\trend-4.jpg",
+      "PackagePath": "staticwebassets\\img\\trending\\trend-4.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\trending\\trend-5.jpg",
+      "PackagePath": "staticwebassets\\img\\trending\\trend-5.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\img\\trending\\trend-6.jpg",
+      "PackagePath": "staticwebassets\\img\\trending\\trend-6.jpg"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\player.js",
+      "PackagePath": "staticwebassets\\js\\player.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\videos\\1.mp4",
+      "PackagePath": "staticwebassets\\videos\\1.mp4"
+    },
+    {
+      "Id": "D:\\sd\\WEBTRUYEN\\WEBTRUYEN\\wwwroot\\videos\\anime-watch.jpg",
+      "PackagePath": "staticwebassets\\videos\\anime-watch.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEBTRUYEN.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEBTRUYEN.props",
+      "PackagePath": "build\\WEBTRUYEN.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEBTRUYEN.props",
+      "PackagePath": "buildMultiTargeting\\WEBTRUYEN.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEBTRUYEN.props",
+      "PackagePath": "buildTransitive\\WEBTRUYEN.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

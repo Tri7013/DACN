@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1 style="text-align:center; color:#3A3A3A; font-family:'Georgia', serif;">@ViewData["Title"]</h1>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <section style="background-color:#FAFAFA; border: 1px solid #E0E0E0; border-radius: 12px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+            <h2 style="color:#3A3A3A; font-family:'Georgia', serif;">Update Your Profile</h2>
+            <hr />
+            <form id="profile-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
+                    <label asp-for="Username" class="form-label"></label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
+                    <label asp-for="Input.PhoneNumber" class="form-label"></label>
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <div>
+                    <button id="update-profile-button" type="submit" class="w-100 btn btn-lg" style="background-color: #BFD3C1; color: #4A4A4A;">Save</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

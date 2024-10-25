@@ -1,0 +1,81 @@
+﻿@using WEBTRUYEN.Data.Users
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+
+<section style="background-color:#FAFAFA; border: 1px solid #E0E0E0; border-radius: 12px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; color: #3A3A3A; font-family: 'Georgia', serif;">Account Management</h2>
+    <hr />
+    <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">
+                Profile
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">
+                Email
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">
+                Password
+            </a>
+        </li>
+
+        @if (hasExternalLogins)
+        {
+            <li id="external-logins" class="nav-item">
+                <a id="external-login" class="nav-link @ManageNavPages.ExternalLoginsNavClass(ViewContext)" asp-page="./ExternalLogins">
+                    External Logins
+                </a>
+            </li>
+        }
+
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">
+                Two-factor Authentication
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">
+                Personal Data
+            </a>
+        </li>
+    </ul>
+</section>
+
+<style>
+    .nav-item {
+        margin-bottom: 15px;
+    }
+
+    .nav-link {
+        font-family: 'Georgia', serif;
+        color: #4A4A4A;
+        transition: background-color 0.3s, color 0.3s;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+
+        .nav-link:hover {
+            background-color: #E0E0E0;
+            color: #3A3A3A;
+        }
+
+    .nav-pills .nav-link.active {
+        background-color: #BFD3C1;
+        color: #4A4A4A;
+        font-weight: 500;
+    }
+
+    section {
+        max-width: 400px;
+        margin: auto;
+    }
+</style>

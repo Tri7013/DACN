@@ -1,0 +1,90 @@
+﻿@model WEBTRUYEN.Models.Chapter
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Chapter</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Description)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FilePath)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var extension = System.IO.Path.GetExtension(Model.FilePath).ToLower();
+                var webHostEnvironment = (IWebHostEnvironment)ViewData["WebHostEnvironment"];
+                var fullPath = System.IO.Path.Combine(webHostEnvironment.WebRootPath, Model.FilePath.TrimStart('~', '/'));
+
+                if (System.IO.File.Exists(fullPath))
+                {
+                    if (extension == ".jpg" || extension == ".png" || extension == ".gif")
+                    {
+                        <img src="@Url.Content(Model.FilePath)" alt="Content Image" style="max-width: 100%; height: auto;" />
+                    }
+                    else if (extension == ".pdf")
+                    {
+                        <iframe src="@Url.Content(Model.FilePath)" width="100%" height="600px" style="border: none;"></iframe>
+                    }
+                    else if (extension == ".txt")
+                    {
+                        <pre>@System.IO.File.ReadAllText(fullPath)</pre>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Download", "Chapters", new { id = Model.Id })">Tải xuống tệp</a>
+                    }
+                }
+                else
+                {
+                    <p>Tệp không tồn tại.</p>
+                }
+            }
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ChapterNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ChapterNumber)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

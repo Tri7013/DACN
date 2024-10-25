@@ -1,0 +1,337 @@
+﻿@model IEnumerable<WEBTRUYEN.Models.Product>
+@{
+    ViewData["Title"] = "Trang Chủ";
+    var searchTerm = Context.Request.Query["searchTerm"].ToString();
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NamComic 🍄</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="@Url.Action("Index", "Home")">
+                            <img src="/img/logo2.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul class="navbar">
+                               
+                                <li>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                                        Homepage
+                                    </a>
+
+                                <li>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Categories</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Blog" asp-action="Index">
+                                        Our Blog
+                                    </a>
+                                </li>
+                              
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                       <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+ 
+
+
+    <!-- Header End -->
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form" method="get" action="@Url.Action("Index", "Home")">
+                <input type="text" name="searchTerm" placeholder="Nhập từ khóa tìm kiếm" value="@searchTerm" />
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <section class="hero">
+    <div class="container">
+        <div class="hero__slider owl-carousel">
+
+            @foreach (var item in Model)
+            {
+                    <div class="hero__items set-bg" data-setbg="@item.ImageUrl">
+                    
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+
+
+                                    <div class="product__item__text">
+                                        <h5>
+                                            <a asp-controller="Home" asp-action="Details" asp-route-id="@item.Id">
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </a>
+                                        </h5>
+                                        <ul>
+                                            @* <li>@item.Category.Name</li> *@
+
+                                        </ul>
+                                        
+                                    </div>
+                                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="live__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Phổ biến</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a asp-area="" asp-controller="Categories" asp-action="Index">View All<span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                @foreach (var item in Model
+                                .Where(p => string.IsNullOrEmpty(searchTerm) || p.Name.ToLower().Contains(searchTerm.ToLower()))
+                                .Take(9))  // Chỉ lấy 9 sản phẩm
+                                {
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                        <div class="product__item">
+                                            <div class="product__item__pic set-bg" data-setbg="@item.ImageUrl">
+                                                <div class="ep">@item.PremiumStatus</div>
+                                                <div class="comment"><i class="fa fa-comments"></i> @item.Comments.Count</div>
+                                                <div class="view"><i class="fa fa-eye"></i> @item.ViewCount</div>
+                                            </div>
+                                            <div class="product__item__text">
+                                                <ul>
+                                                    @foreach (var productCategory in item.ProductCategories)
+                                                    {
+                                                        <li>@productCategory.Category.Name</li>
+                                                    }
+                                                </ul>
+                                                <h5>
+                                                    <a asp-controller="Home" asp-action="Details" asp-route-id="@item.Id"
+                                                       onclick="incrementViewCount(@item.Id)">
+                                                        @Html.DisplayFor(modelItem => item.Name)
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="product__sidebar">
+                        <div class="product__sidebar">
+                            <div class="product__sidebar__view">
+                                <div class="section-title">
+                                    <h5>Top Views</h5>
+                                </div>
+                                <ul class="filter__controls">
+                                    <li class="active" data-filter="*">Day</li>
+                                    <li data-filter=".week">Week</li>
+                                    <li data-filter=".month">Month</li>
+                                    <li data-filter=".years">Years</li>
+                                </ul>
+
+                                @foreach (var item in Model.OrderByDescending(i => i.ViewCount).Take(3))
+                                {
+                                    <div class="filter__gallery">
+                                        <div class="product__sidebar__view__item set-bg mix day years" data-setbg="@item.ImageUrl">
+                                            <div class="ep">@item.PremiumStatus</div>
+                                            <div class="view"><i class="fa fa-eye"></i> @item.ViewCount</div>
+                                            <h5>
+                                                <a asp-controller="Home" asp-action="Details" asp-route-id="@item.Id">
+                                                    @Html.DisplayFor(modelItem => item.Name)
+                                                </a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="product__sidebar__comment">
+                            <div class="section-title">
+                                <h5>Top Like</h5>
+                            </div>
+
+                            @foreach (var product in Model.Where(p => p.IsActive)
+                            .OrderByDescending(p => p.Likes)
+                            .Take(5))
+                            {
+                                <div class="product__sidebar__comment__item" style="display: flex; margin-bottom: 15px;">
+                                    <div class="product__sidebar__comment__item__pic" style="flex: 0 0 80px;">
+                                        <img src="@product.ImageUrl"
+                                             alt="@product.Name"
+                                             style="width: 120px; height: 120px; object-fit: cover; border-radius: 5px;" />
+                                    </div>
+                                    <div class="product__sidebar__comment__item__text" style="margin-left: 10px; flex: 1;">
+                                        <ul style="padding: 0; list-style: none; margin-bottom: 5px;">
+                                            <li style="display: inline-block; margin-right: 10px;">
+                                                @(product.IsActive ? "Active" : "Inactive")
+                                            </li>
+                                            <li style="display: inline-block;">
+                                                @product.PremiumStatus
+                                            </li>
+                                        </ul>
+                                        <h5 style="margin: 5px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                                            <a href="#"
+                                               class="product__item__text">
+                                                @product.Name
+                                            </a>
+                                        </h5>
+                                        <span style="font-size: 13px; color: #999;">
+                                            <i class="fa fa-eye"></i> @product.ViewCount Views
+                                        </span><br />
+                                        <span style="font-size: 13px; color: #999;">
+                                            <i class="fa fa-thumbs-up"></i> @product.Likes Likes
+                                        </span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="page-up">
+            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav ">
+                        <ul>
+                            <li>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">
+                                    Homepage
+                                </a>
+
+                            <li>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Categories" asp-action="Index">Categories</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Blog" asp-action="Index">
+                                    Our Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Js Plugins -->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/player.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
+    <script src="/js/mixitup.min.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+        function incrementViewCount(productId) {
+            fetch('/Home/IncrementViewCount', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'X-CSRF-TOKEN': $('input[name="__RequestVerificationToken"]').val() // Nếu bạn có CSRF token
+                },
+                body: new URLSearchParams({ id: productId })
+            }).then(response => {
+                if (!response.ok) {
+                    console.error('Error increasing view count');
+                }
+            }).catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+
+</html>

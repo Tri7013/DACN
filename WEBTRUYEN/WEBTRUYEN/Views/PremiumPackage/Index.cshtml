@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WEBTRUYEN.Models.PremiumPackage>
+
+<h2>Chọn gói Premium</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Tên gói</th>
+            <th>Giá</th>
+            <th>Thời hạn (tháng)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var package in Model)
+        {
+            <tr>
+                <td>@package.Name</td>
+                <td>@package.Price VNĐ</td>
+                <td>@package.DurationInMonths tháng</td>
+                <td>
+                    <form action="/Payment/Execute" method="post">
+                        <input type="hidden" name="premiumPackageId" value="@package.Id" />
+                        <button type="submit">Thanh toán với VnPay</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

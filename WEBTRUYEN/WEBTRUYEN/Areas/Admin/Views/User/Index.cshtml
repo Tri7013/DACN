@@ -1,0 +1,47 @@
+﻿@using WEBTRUYEN.Models 
+@model List<UserRoleViewModel>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}                                               
+<h2>Quản lý Người dùng và Vai trò</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Người dùng</th>
+            <th>Vai trò</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>
+                    <form asp-action="UpdateRoles" method="post">
+                        <input type="hidden" name="UserId" value="@user.UserId" />
+                        @foreach (var role in user.AllRoles)
+                        {
+                            <div>
+                                <input type="checkbox" name="Roles" value="@role.Name"
+                                @(user.Roles.Contains(role.Name) ? "checked" : "") />
+                                @role.Name
+                            </div>
+                        }
+                        <button type="submit" class="btn btn-primary">Cập nhật Vai trò</button>
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="DeleteUser" method="post" style="display:inline;">
+                        <input type="hidden" name="userId" value="@user.UserId" />
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

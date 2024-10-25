@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WEBTRUYEN.Models.Product>
+
+<h2>Các sản phẩm bạn đã theo dõi</h2>
+
+@if (Model.Any())
+{
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>
+                <a href="@Url.Action("Details", "Product", new { id = product.Id })">@product.Name</a>
+                <form asp-action="UnfollowProduct" method="post" style="display:inline;">
+                    <input type="hidden" name="productId" value="@product.Id" />
+                    <button type="submit" class="btn btn-danger btn-sm">Bỏ theo dõi</button>
+                </form>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Bạn chưa theo dõi sản phẩm nào.</p>
+}

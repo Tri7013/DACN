@@ -1,0 +1,532 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chaptercomments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chaptercomments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chapters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chapters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chaptercomments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chaptercomments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chapters\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chapters\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chaptercomments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chaptercomments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chapters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chapters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chaptercomments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chaptercomments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chapters\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chapters\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chaptercomments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chaptercomments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\chapters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\chapters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\controllers\\chaptercommentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\controllers\\chaptercommentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\controllers\\chapterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\controllers\\chapterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\areas\\admin\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\areas\\admin\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\models\\productcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\models\\productcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\views\\categories\\watching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\views\\categories\\watching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\models\\chaptercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\models\\chaptercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\models\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\models\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\models\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\models\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|c:\\users\\phuon\\downloads\\webtruyen\\webtruyen\\migrations\\20241015083335_hhhhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2349F4-FD85-4CF4-8B7E-0859AA2AFE3E}|WEBTRUYEN\\WEBTRUYEN.csproj|solutionrelative:webtruyen\\migrations\\20241015083335_hhhhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:31:46.729Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca03a279-b40a-4a35-86ec-7e15e82aff3a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Index.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:24:07.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Edit.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:24:03.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Details.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:23:55.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Details.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Details.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:23:52.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Delete.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:23:48.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Delete.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:23:45.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\Product.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:16:39.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Index.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:24:10.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Controllers\\RatingsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:28:37.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Controllers\\RatingController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Controllers\\RatingController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:37:17.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Program.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Program.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Program.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:29:47.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Create.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\ChapterComments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:23:40.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChaptersController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\ChaptersController.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Controllers\\ChaptersController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\ChaptersController.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Controllers\\ChaptersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:23:16.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Edit.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:38:57.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChapterCommentsController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\ChapterCommentsController.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Controllers\\ChapterCommentsController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\ChapterCommentsController.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Controllers\\ChapterCommentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:23:02.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\ProductCreateViewModel.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Models\\ProductCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\ProductCreateViewModel.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Models\\ProductCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:26:41.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAuwC8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:32:39.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Create.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Chapters\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:38:51.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:31:38.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:31:24.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAACABAAAAAAAAAAAAAC8BAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T08:43:33.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Watching.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Views\\Categories\\Watching.cshtml",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Views\\Categories\\Watching.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Views\\Categories\\Watching.cshtml",
+              "RelativeToolTip": "WEBTRUYEN\\Views\\Categories\\Watching.cshtml",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAqwBMBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T08:38:32.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwHwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:34:15.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241015083335_hhhhh.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Migrations\\20241015083335_hhhhh.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Migrations\\20241015083335_hhhhh.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Migrations\\20241015083335_hhhhh.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Migrations\\20241015083335_hhhhh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:33:36.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Models\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Models\\ProductDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:28:05.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA7wEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:17:54.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Chapter.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\Chapter.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Models\\Chapter.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\Chapter.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Models\\Chapter.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:17:38.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChapterComment.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\ChapterComment.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Models\\ChapterComment.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\ChapterComment.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Models\\ChapterComment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:17:05.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "WEBTRUYEN\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\WEBTRUYEN\\WEBTRUYEN\\Models\\Comment.cs",
+              "RelativeToolTip": "WEBTRUYEN\\Models\\Comment.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wCEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:07:25.145Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
